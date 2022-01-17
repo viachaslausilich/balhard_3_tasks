@@ -20,9 +20,6 @@ def calc_average(a: int, b: int, c: int) -> Union[int, float]:
     """
     result = round((a + b + c) / 3, 5)
     return result
-    print(result)
-
-
 
 
 if __name__ == '__main__':
