@@ -24,7 +24,10 @@ def process_numbers(numbers: str) -> str:
 
     :return: обработанная строка
     """
-    result = None
+    some1 = numbers.replace("1", "uno")
+    some2 = some1.replace("2", "two")
+    some3 = some2.replace("3", "")
+    result = some3
     return result
 
 
